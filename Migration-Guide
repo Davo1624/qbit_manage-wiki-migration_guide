@@ -72,6 +72,7 @@ sharelimits:
     - movies
     max_ratio: 5
     max_seeding_time: 100
+    cleanup: true
   group2.noHL:
     priority: 3
     include_any_tags:
@@ -82,6 +83,7 @@ sharelimits:
     - tv
     max_ratio: 1
     max_seeding_time: 25
+    cleanup: true
   group2:
     priority: 4
     include_any_tags:
