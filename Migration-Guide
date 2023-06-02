@@ -45,7 +45,7 @@ tracker:
     tag: a
   Tracker-b:
     tag: b
-    Tracker-c:
+  Tracker-c:
     tag: c
 nohardlinks:
 - movies
