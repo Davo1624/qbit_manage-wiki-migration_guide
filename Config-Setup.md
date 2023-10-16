@@ -3,7 +3,7 @@
 
 The script utilizes a YAML config file to load information to connect to the various APIs you can connect with.
 
-By default, the script looks at /config/config.yml for the Configuration File unless otherwise specified.
+By default, the script looks at /config/config.yml for the Configuration File unless otherwise specified. If qbit-manage is installed via docker you can use the QBIT_CONFIG variable to utilize multiple configuration files (see docker installation section of the wiki for futher information).
 
 A template Configuration File can be found in the repo [config/config.yml.sample](https://github.com/StuffAnThings/qbit_manage/blob/master/config/config.yml.sample).
 
